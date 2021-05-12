@@ -25,7 +25,7 @@ spring.jpa.hibernate.ddl-auto = update
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 
 
-# Fow:
+# Flow:
 Create the User with "/users/create" and update the any 1 user as ADMIN:
 update user set roles = 'ROLE_ADMIN' where id = 1;
 
