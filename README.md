@@ -18,12 +18,6 @@ POST - http://localhost:8080/users/create @ResponseBody(#ref User)
 # DB - MySQL - Configurations are present in application.properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url = jdbc:mysql://localhost:3306/groupmanager
-spring.datasource.username = root
-spring.datasource.password = AppUsr123
-spring.jpa.show-sql = true
-spring.jpa.hibernate.ddl-auto = update
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
-
 
 # Flow:
 Create the User with "/users/create" and update the any 1 user as ADMIN:
