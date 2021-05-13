@@ -15,9 +15,9 @@ POST - http://localhost:8080/users/create @ResponseBody(#ref User)
 }
 
 ```
-# DB - MySQL - Configurations are present in application.properties
+## DB - MySQL - Configurations are present in application.properties
 
-# Flow:
+## Flow:
 Create the User with "/users/create" and update the any 1 user as ADMIN:
 update user set roles = 'ROLE_ADMIN' where id = 1;
 
