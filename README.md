@@ -6,7 +6,7 @@ Implement Role base authorization
 ```
 POST - http://localhost:8080/users/create @ResponseBody(#ref User)
 ```
-### #Ref - User.json
+### User.json
 ```
 {
     "username" : "Neeraj",
