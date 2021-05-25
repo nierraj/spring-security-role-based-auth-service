@@ -14,7 +14,6 @@ POST - http://localhost:8080/users/create @ResponseBody(#ref User)
     "active" : true
 }
 
-
 ```
 ## DB - MySQL - Configurations are present in application.properties
 
@@ -25,3 +24,7 @@ update user set roles = 'ROLE_ADMIN' where id = 1;
 Create few Accounts with "/account/create". Accounts will be created in Pending Status.
 It can be approved by the User which has "ROLE_ADMIN" and "ROLE_MODERATOR".
 
+```
+I have added Swagger 3: http://localhost:8080/swagger-ui/
+You can use Swagger UI to get the API details.
+```
