@@ -1,5 +1,5 @@
 # spring-security-role-based-auth-service
-Implement Role base authorization
+Implement Role based authorization
 
 ## Controlling Services
 ### API-endpoints
